@@ -12,11 +12,11 @@ spec:
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
     name: mongodb
-    version: 4.0.6
+    version: 4.0.5
   values:
     image:
       repository: bitnami/mongodb
-      tag: 4.0.6
+      tag: 4.0.4
     usePassword: false
     persistence:
       enabled: false
